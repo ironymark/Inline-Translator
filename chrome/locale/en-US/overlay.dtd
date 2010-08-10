@@ -1,0 +1,8 @@
+<!ENTITY inlinetranslator.label "Your localized menuitem">
+<!ENTITY inlinetranslatorContext.label "Your Menuitem">
+<!ENTITY inlinetranslatorContext.accesskey "Y">
+<!ENTITY inlinetranslatorToolbarButton.label "Your Toolbar Button">
+<!ENTITY inlinetranslatorToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY inlinetranslatorSidebar.label "Your Sidebar">
+<!ENTITY inlinetranslatorToolbar.name  "example">
+<!ENTITY inlinetranslatorToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &inlinetranslatorToolbar.name;">

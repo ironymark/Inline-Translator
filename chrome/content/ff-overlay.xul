@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://inlinetranslator/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://inlinetranslator/locale/overlay.dtd">
+<overlay id="inlinetranslator-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="inlinetranslator-strings" src="chrome://inlinetranslator/locale/overlay.properties"/>
+  </stringbundleset>
+
+  <popup id="contentAreaContextMenu">
+    <menuitem id="context-inlinetranslator" label="&inlinetranslatorContext.label;"
+              accesskey="&inlinetranslatorContext.accesskey;"
+              insertafter="context-stop"
+              oncommand="inlinetranslator.onMenuItemCommand(event)"/>
+  </popup>
+
+
+
+
+</overlay>

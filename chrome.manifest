@@ -1,0 +1,6 @@
+content   inlinetranslator                 chrome/content/
+skin      inlinetranslator   classic/1.0   chrome/skin/
+locale    inlinetranslator   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://inlinetranslator/content/ff-overlay.xul
